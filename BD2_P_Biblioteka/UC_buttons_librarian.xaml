@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BD2_P_Biblioteka.UC_buttons_librarian"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BD2_P_Biblioteka"
+             mc:Ignorable="d" 
+             d:DesignHeight="54" d:DesignWidth="740">
+    <Grid>
+        <Button x:Name="btnLogOut" Content="Wyloguj" HorizontalAlignment="Left" Margin="589,19,0,1" Width="151" FontSize="20" Click="BtnLogOut_Click"/>
+        <Button x:Name="btnBooksCatalog" Content="Katalog książek" HorizontalAlignment="Left" Margin="419,19,0,0" Width="151" FontSize="20" Click="BtnBooksCatalog_Click"/>
+        <Button x:Name="btnBorrows" Content="Wypożyczenia" HorizontalAlignment="Left" Margin="249,19,0,1" Width="151" FontSize="20" Click="BtnBorrows_Click"/>
+    </Grid>
+</UserControl>

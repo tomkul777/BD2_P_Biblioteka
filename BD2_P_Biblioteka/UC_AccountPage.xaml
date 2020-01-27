@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="BD2_P_Biblioteka.UC_AccountPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BD2_P_Biblioteka"
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="970" Background="White">
+    <Grid>
+        <Label Content="Twój E-Mail:" HorizontalAlignment="Left" Height="44" Margin="10,24,0,0" VerticalAlignment="Top" Width="161" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="tbEmail" HorizontalAlignment="Left" Height="32" Margin="171,29,0,0" TextWrapping="Wrap" Text="xd@xd.xd" VerticalAlignment="Top" Width="501" FontSize="24"/>
+
+        <Label Content="Do zapłaty:" HorizontalAlignment="Left" Height="44" Margin="677,24,0,0" VerticalAlignment="Top" Width="138" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="tbMoney" HorizontalAlignment="Left" Height="32" Margin="820,29,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="106" FontSize="24" Foreground="Red" FontWeight="Bold" TextAlignment="Right"/>
+
+        <Label Content="Aktualne hasło:" HorizontalAlignment="Left" Height="42" Margin="231,156,0,0" VerticalAlignment="Top" Width="192" FontSize="24"/>
+        <PasswordBox x:Name="tbPassword" HorizontalAlignment="Left" Height="37" Margin="458,161,0,0" VerticalAlignment="Top" Width="246" FontSize="24"/>
+
+
+        <Label Content="Nowy E-Mail:" HorizontalAlignment="Left" Height="42" Margin="117,261,0,0" VerticalAlignment="Top" Width="158" FontSize="24"/>
+        <TextBox x:Name="tbNewEmail" HorizontalAlignment="Left" Height="37" Margin="345,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="24"/>
+        <Button x:Name="btnChangeEmail" Content="Zmień E-Mail" HorizontalAlignment="Left" Height="37" Margin="693,261,0,0" VerticalAlignment="Top" Width="190" FontSize="24" Click="BtnChangeEmail_Click"/>
+
+        <Label Content="Nowe Hasło:" HorizontalAlignment="Left" Height="42" Margin="117,342,0,0" VerticalAlignment="Top" Width="158" FontSize="24"/>
+        <PasswordBox x:Name="tbNewPassword" HorizontalAlignment="Left" Height="37" Margin="345,342,0,0" VerticalAlignment="Top" Width="246" FontSize="24"/>
+        <Button x:Name="btnChangePassword" Content="Zmień Hasło" HorizontalAlignment="Left" Height="37" Margin="693,342,0,0" VerticalAlignment="Top" Width="190" FontSize="24" Click="BtnChangePassword_Click"/>
+        <Button x:Name="btnPay" Content="Zapłać" HorizontalAlignment="Left" Height="26" Margin="693,73,0,0" VerticalAlignment="Top" Width="108" FontSize="14" Click="BtnPay_Click"/>
+        <TextBlock x:Name="tbInfo" HorizontalAlignment="Left" Height="61" Margin="10,409,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="950" FontSize="20" Foreground="Red"/>
+        <TextBlock x:Name="tbMoney_Copy" HorizontalAlignment="Left" Height="32" Margin="931,29,0,0" TextWrapping="Wrap" Text="zł" VerticalAlignment="Top" Width="29" FontSize="24" Foreground="Red" FontWeight="Bold"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BD2_P_Biblioteka.UC_buttons_guest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BD2_P_Biblioteka"
+             mc:Ignorable="d" 
+             d:DesignHeight="54" d:DesignWidth="740">
+    <Grid>
+        <Button x:Name="btnZaloguj" Content="Zaloguj" HorizontalAlignment="Left" Height="34" Margin="589,19,0,0" VerticalAlignment="Top" Width="152" FontSize="20" Click="BtnZaloguj_Click"/>
+        <Button x:Name="btnZarejestruj" Content="Zarejestruj" HorizontalAlignment="Left" Margin="419,19,0,0" Width="150" FontSize="20" Click="BtnZarejestruj_Click"/>
+        <Button x:Name="btnBooksCatalog" Content="Katalog książek" HorizontalAlignment="Left" Margin="249,19,0,0" Width="152" FontSize="20" Click="BtnBooksCatalog_Click"/>
+    </Grid>
+</UserControl>
